@@ -1,0 +1,64 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 50px;
+}
+
+img{
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.course{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.course-img{
+    display: flex;
+    justify-content: center;
+}
+
+.course-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.course-desc{
+    font-size: 16px;
+}
+
+.course-price{
+    font-size: 24px;
+    font-weight: 600;
+    color: indigo;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buy-now{
+    display: flex;
+    justify-content: center; 
+}
+
+.buy-now-button{
+    width: 200px;
+    height: 25px;
+    background-color: indigo;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
